@@ -226,6 +226,18 @@
     <Compile Include="Migrations\201808280927164_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201808280927164_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808281102492_AddMembershipName.cs" />
+    <Compile Include="Migrations\201808281102492_AddMembershipName.Designer.cs">
+      <DependentUpon>201808281102492_AddMembershipName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808281112193_UpdateMembershipTypeNames.cs" />
+    <Compile Include="Migrations\201808281112193_UpdateMembershipTypeNames.Designer.cs">
+      <DependentUpon>201808281112193_UpdateMembershipTypeNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808281120064_FixMembershipTypesDurationinMonthsValues.cs" />
+    <Compile Include="Migrations\201808281120064_FixMembershipTypesDurationinMonthsValues.Designer.cs">
+      <DependentUpon>201808281120064_FixMembershipTypesDurationinMonthsValues.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -336,6 +348,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808280927164_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201808280927164_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808281102492_AddMembershipName.resx">
+      <DependentUpon>201808281102492_AddMembershipName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808281112193_UpdateMembershipTypeNames.resx">
+      <DependentUpon>201808281112193_UpdateMembershipTypeNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808281120064_FixMembershipTypesDurationinMonthsValues.resx">
+      <DependentUpon>201808281120064_FixMembershipTypesDurationinMonthsValues.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

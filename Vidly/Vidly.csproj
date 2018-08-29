@@ -262,6 +262,14 @@
     <Compile Include="Migrations\201808290738078_PopulateGenres.Designer.cs">
       <DependentUpon>201808290738078_PopulateGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808290911281_PopulateMovies.cs" />
+    <Compile Include="Migrations\201808290911281_PopulateMovies.Designer.cs">
+      <DependentUpon>201808290911281_PopulateMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808291142598_PopulateCustomers.cs" />
+    <Compile Include="Migrations\201808291142598_PopulateCustomers.Designer.cs">
+      <DependentUpon>201808291142598_PopulateCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -400,6 +408,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808290738078_PopulateGenres.resx">
       <DependentUpon>201808290738078_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808290911281_PopulateMovies.resx">
+      <DependentUpon>201808290911281_PopulateMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808291142598_PopulateCustomers.resx">
+      <DependentUpon>201808291142598_PopulateCustomers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

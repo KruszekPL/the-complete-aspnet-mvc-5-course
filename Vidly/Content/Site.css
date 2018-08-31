@@ -23,7 +23,9 @@ textarea {
     max-width: 280px;
 }
 
-.field-validation.error {
+.field-validation-error,
+.validation-summary-errors,
+.error {
     color: red;
 }
 
